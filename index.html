@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="neural-network-interface">
+        <div class="checkboxes">
+            <input type="checkbox" name="trees">
+            <input type="checkbox" name="trees">
+            <input type="checkbox" name="trees">
+            <input type="checkbox" name="trees">
+        </div>
+        <div>
+            <p class="movement-direction-sign">f</p>
+        </div>
+    </div>
+
+<style>
+        html {
+            background-color: #222;
+        	color: #fff;
+        }
+        body {
+    background-color: #222;
+}
+
+
+
+.neural-network-interface {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.checkboxes input {
+    /* border: 0px; */
+    width: 100px;
+    height: 100px;
+}
+
+.movement-direction-sign {
+    font-size: 80px;
+    color: #eee;
+    min-height: 100px;
+}
+    </style>
+    
+
+    <script src="andriis_ml_library/matrices.js"></script>
+    <script src="andriis_ml_library/nn.js"></script>
+    <script src="andriis_ml_library/training_data.js"></script>
+    <script src="andriis_ml_library/initialize_nn.js"></script>
+    
+    <script src="scripts/main.js"></script>
+    <script src="scripts/game.js"></script>
+</body>
+</html>
